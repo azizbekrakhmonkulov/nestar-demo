@@ -4,7 +4,7 @@ import PopularProperties from "@/libs/components/homepage/PopularProperties";
 import TopAgents from "@/libs/components/homepage/TopAgents";
 import TopProperties from "@/libs/components/homepage/TopProperties";
 import TrendProperties from "@/libs/components/homepage/TrendProperties";
-import { withLayoutMain } from "@/libs/components/layout/LayoutHome";
+import withLayoutMain from "@/libs/components/layout/LayoutHome";
 import useDeviceDetect from "@/libs/hooks/useDeviceDetect";
 import { useQuery } from "@apollo/client";
 import { Stack } from "@mui/material";

@@ -8,13 +8,13 @@ const Community: NextPage = () => {
 
   if (device === "mobile") {
     return <Stack>COMMUNITY MOBILE</Stack>;
-  } else {
-    return (
-      <div style={{ margin: "20px 0" }}>
-        <Stack className="container">COMMUNITY</Stack>
-      </div>
-    );
   }
+
+  return (
+    <Stack className={"community-page"} sx={{ margin: "20px 0" }}>
+      <Stack className={"container"}>COMMUNITY</Stack>
+    </Stack>
+  );
 };
 
 export default withLayoutBasic(Community);
